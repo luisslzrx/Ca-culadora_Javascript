@@ -1,0 +1,28 @@
+body{
+    height: 100vh;
+    display: flex;              /*converite en flex la caja*/
+    justify-content: center;    /*ajusta al centro de lo ancho*/
+    align-items: center;
+    font-family: sans-serif;
+    background-color: #f0f0f0;
+}
+
+div{
+    box-sizing: border-box;
+}
+
+
+.calculadora{
+    background-color: #fff;
+    text-align: center;
+    padding: 50px;
+    border-radius: 30px;
+    box-shadow: 0 5px 15px rgba(0, 0, 0, 0.2);
+
+}
+
+input, button{
+    padding: 10px;
+    margin: 10px;
+    font-size: 20px;
+}
